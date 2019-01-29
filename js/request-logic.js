@@ -1,7 +1,7 @@
 function getContentType(filename) {
   const extension = filename.match(/.*\.([^\.]*)$/)[1];
 
-// Switch appropriately responds to the file extension.
+// 'switch' determina la risposta appropriata per l'estensione del file.
   switch (extension) {
     case 'html':
       return "text/html";
